@@ -1,0 +1,3 @@
+rootProject.name = 'spring-cloude-demo'
+
+include(':spring-cloud-eureka')
