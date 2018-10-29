@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  eureka-service:
+    build: ./spring-cloud-eureka
+    ports:
+      - 10000:10000
+    command: [ sh, -c, "java -Duser.timezone=GMT+08:00 -Djava.security.egd=file:/dev/./urandom -jar spring-cloud-eureka-0.0.1.jar" ]
