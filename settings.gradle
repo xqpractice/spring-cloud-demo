@@ -1,4 +1,5 @@
 rootProject.name = 'spring-cloude-demo'
 
+include(':spring-cloud-consul')
 include(':spring-cloud-eureka')
 include(':spring-cloud-eureka-client')
